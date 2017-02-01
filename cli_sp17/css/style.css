@@ -18,6 +18,15 @@ body {
   max-width: 600px;
 }
 
+
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: blue;
+}
+
+
 h1 {
 /*        font-family: "Space Mono";*/
   /*font-weight: 400;*/
