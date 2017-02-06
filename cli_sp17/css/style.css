@@ -57,8 +57,16 @@ p {
   width: 100%;
 }
 
+.border {
+  border: 1px solid #bbb;
+}
+
 .shadow-caption {
   margin-top: -12px;
+}
+
+.section-break {
+  height: 60px;
 }
 
 .caption {

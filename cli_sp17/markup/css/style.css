@@ -1,0 +1,12 @@
+body {
+  background-color: lightgreen;
+}
+
+* {
+  color: yellow;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
