@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+  overflow-x: hidden;
 }
 
 
@@ -63,4 +64,9 @@ p {
 img {
   width: 290px;
   margin-right: 20px;
+}
+
+
+@media screen and (max-width: 100px) {
+
 }
