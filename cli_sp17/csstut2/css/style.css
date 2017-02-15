@@ -1,0 +1,92 @@
+html, body {
+  height: 100%;
+}
+
+
+.box {
+  width: 170px;
+  height: 170px;
+  background-color: rgb(200, 20, 50);
+  margin-bottom: 10px;
+  float: left;
+  margin-right: 10px;
+
+  width: XXvw;
+  height XXvw;
+}
+
+
+
+.last {
+  clear: both;
+}
+
+.smalldot {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+  left: 40px;
+  top: 20px;
+}
+
+.special {
+  width: 340px;
+/*  position: fixed;
+  top: 50px;
+  left: 600px;*/
+
+/*  position: relative;
+  top: -100px;
+  left: 500px;*/
+
+ /* position: absolute;
+  top: 100px;
+  left: 1000px;*/
+}
+
+
+
+
+
+/*
+.dot {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.box {
+  width: 400px;
+  height: 400px;
+}
+
+.dot .dot {
+
+}
+
+.dot, .box {
+  background-color: brown;
+}
+*/
+
+/*
+Pseudo Selector
+Pseudo Class
+always start with :
+*/
+
+/*
+.dot:hover {
+  background-color: rgb(0, 180, 20);
+  cursor: pointer;
+}
+
+.dot:first-of-type {
+  background-color: rgb(0, 180, 20);
+}
+
+*/
+
+ 
