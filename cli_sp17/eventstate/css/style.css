@@ -1,0 +1,20 @@
+html, body {
+  height: 100%;
+}
+
+.button {
+  position: relative;
+  margin: auto;
+  top: 100px;
+  width: 210px;
+  height: 60px;
+  border-radius: 8px;
+  background-color: rgb(200, 200, 200);
+}
+
+
+/*
+  switch img
+  width: 120px;
+  height: 358px;
+*/
