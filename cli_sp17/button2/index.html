@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ex 5: Toy Button (II)</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>Ex 5: Toy Button (II)</h1>
+      <h5>Core Lab Interaction — Section B — Spring 2017</h5>
+
+      <h3>Due Date</h3>
+      <p>Mar 8, 2017 by 7:00pm</p>
+
+      <h3>Deliverables</h3>
+      <p>Functional HTML pages live on your course website accessible at<br><code>your-username.github.io/<strong>button2</strong>/</code></p>
+
+      <h3>Summary</h3>
+      <p>
+        Building off your knowledge from the previous exercise and our in-class tutorial, use at least one JavaScript <code>if</code> statement to test whether an event (click, hover, etc.) meets a condition (number, location, etc.). If it does trigger the condition, cause some visual feedback to occur. Use a <code>for</code> loop somewhere in your code, for example setting up the page when it loads, or doing something when the <code>if</code> condition is triggered. 
+      </p>
+
+      <h3>Additional Details</h3>
+      <p>
+        Even though we are calling this exercise Button II, please do not just do an update to your previous exercise; come up with a new idea for this sketch that takes advantage of using variables and <code>if</code> checks. 
+      </p>
+      <p>
+        We did a very simple example of counting clicks in class, but see if you can push farther for your exercise to create something you genuinely think is an interesting interaction + visual combo. See below for some examples of other conditions that you can use in <code>if</code> statements instead of, or combined with, counting.
+      </p>
+
+      <h3>Hints and Ideas</h3>
+      <p>
+        These are just two examples. Please feel free to email or come to office hours if you have questions on how to do something.
+      </p>
+      <p>
+        You can use jQuery to check if an element has a class attached to it with <code>.hasClass()</code><br>
+        Example: <code>if ($(".box").hasClass("active")) {</code> will check to see if the ".box" div also has the class "active"
+      </p>
+      <p>
+        You can use jQuery to check the position of an element on the page with <code>.offset().left</code> and <code>offset().top</code><br>
+        Example: <code>if ($(".box").offset().left < 400)</code> will be true when the ".box" is less than 400px from the left side of the page
+      </p>
+
+      <h3>Technical Reference Links</h3>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else" target="_blank">More info about if/else from Mozilla Dev Network</a> [ documentation ]
+      <br>
+      <a href="https://api.jquery.com/hasclass/" target="_blank">jQuery .hasClass method</a> [ documentation ]
+      <br>
+      <a href="http://api.jquery.com/offset/" target="_blank">jQuery .offset method</a> [ documentation ]
+    </div>
+  </body>
+</html>
