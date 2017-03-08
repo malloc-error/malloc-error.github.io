@@ -11,6 +11,45 @@ body {
   background: linear-gradient(to bottom, #dee9f9 0%,#7db9e8 100%); 
 }
 
+#congrats {
+  opacity: 0;
+  position: absolute;
+  width: 100%; height: 100%;
+  background: -moz-linear-gradient(top, #FFE894 0%, #FFB038 100%); 
+  background: -webkit-linear-gradient(top, #FFE894 0%,#FFB038 100%); 
+  background: linear-gradient(to bottom, #FFE894 0%,#FFB038 100%);   
+}
+
+#congrats.on {
+  opacity: 1;
+  transition: all 2s;
+}
+#congrats:after {
+  content: "";
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0; right: 0;
+  margin: 0 auto;
+  bottom: -500px;
+  background-color: #FF511B;
+  transition: all 4s ease-in-out;
+}
+#congrats.on:after {
+  bottom: -300px;
+}
+#congrats.on:before {
+  content: "You are a winner!";
+  font-family: Helvetica;
+  font-size: 80px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 130px;
+  font-weight: bold;
+  color: #C92C10;
+}
 
 #bar {
   position: fixed;
@@ -48,3 +87,54 @@ body {
 }
 
 
+.driftA {
+  animation: driftA;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.driftB {
+  animation: driftB;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.big {
+  width: 80px;
+  height: 80px;
+}
+
+
+.popped {
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+@keyframes driftA {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: -10px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+
+@keyframes driftB {
+  0% {
+    left: 0;
+  }
+  25% {
+    left: 10px;
+  }
+  75% {
+    left: -10px;
+  }
+  100% {
+    left: 0;
+  }
+}
