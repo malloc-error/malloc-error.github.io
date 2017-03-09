@@ -1,7 +1,25 @@
-var words = [ "abjure", "contusion", "discomfit", "inveterate", "modicum", "pernicious", "scurrilous" ];
+// Array
+var words = [ "abjure", "contusion", "discomfit", "inveterate", "modicum", "pernicious", "scurrilous", "defenistrate" ];
+
+// JSON
+// JavaScript Object Notation
+var singleQuote = { 
+                    "quote" : "So it goes.", 
+                    "source" : "Kurt Vonnegut", 
+                    "year" : 1969 
+                  };
 
 
-var singleQuote = { "quote" : "So it goes.", "source" : "Kurt Vonnegut", "year" : 1969 };
+
+
+var myVar = 0;
+var myArray = []; // square brackets
+var myJSON = { "name" : "Brian", "major" : "Design", "grade" : 99  };  // curly braces
+
+var studentB = { "name" : "Linda", "major" : "economics", "grade" : 100 }
+
+
+
 
 
 var quotes = [
