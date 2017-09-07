@@ -67,6 +67,8 @@ img {
 }
 
 
-@media screen and (max-width: 100px) {
-
+@media screen and (max-width: 400px) {
+  .images {
+    display: none;
+  }
 }
