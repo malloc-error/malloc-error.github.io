@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic CSS</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+      li:before {
+        display: none;
+      }
+      li {
+        margin-left: 0;
+      }
+      code {
+        margin-top: 6px;
+        width: 100%;
+        display: block;
+        padding: 10px;
+        background-color: rgb(39,40,34);
+        color: white;
+      }
+      .element {
+        color: rgb(233, 38, 114);
+      }
+      .attribute {
+        color: rgb(102, 217, 223);  
+      }
+      .class {
+        color: rgb(163, 226, 46);   
+      }
+      .comment {
+        color: rgb(115, 113, 94);    
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>Basic CSS</h1>
+      <h5>Review from class tutorials</h5>
+
+      <h3>General pattern</h3>
+      <code>
+        <span class="element">tagName</span> {<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="attribute">attribute</span> : value;
+        <br>}
+        <br><br>
+        <span class="class">.className</span> { <span class="comment">/* remember to put a dot before class names! */</span><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="attribute">attribute</span> : value;
+        <br>}        
+      </code>
+
+      <div class="section-break"></div>
+      <h3>Some attributes from class tutorials</h3>
+      <ul>
+        <li>width</li>
+        <li>max-width</li>
+        <li>height</li>
+        <li>max-height</li>
+        <li>color</li>
+        <li>background-color</li>
+        <li>opacity</li>
+        <li>text-decoration</li>
+        <li>padding</li>
+        <li>margin</li>
+        <li><em>see also this <a href="https://www.w3schools.com/cssref/" target="_blank">more extensive list</a> of CSS attributes</li></em>
+      </ul>
+
+      <div class="section-break"></div>
+      <h3>In-class CSS tutorials</h3>      
+      <a href="css_tut1/index.html">CSS Tutorial 1</a><br>
+      CSS Tutorial 2 (coming soon)<br>
+      CSS Tutorial 3 (coming soon)
+    </div>
+  </body>
+</html>
