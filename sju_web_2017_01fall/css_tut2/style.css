@@ -1,0 +1,92 @@
+* {
+  text-align: center;
+}
+
+div {
+  width: 150px;
+  height: 150px;    
+  position: absolute;
+}
+
+code {
+  text-align: left;
+  float: right;
+  width: 410px;
+  padding: 10px;
+  background-color: rgb(39,40,34);
+  color: white; 
+  height: 100vh;
+  overflow-y: scroll;
+}
+.element {
+  color: rgb(233, 38, 114);
+}
+.attribute {
+  color: rgb(102, 217, 223);  
+}
+.class {
+  color: rgb(163, 226, 46);   
+}
+.comment {
+  color: rgb(115, 113, 94);    
+}
+
+
+
+
+.box1 {
+  top: 40px;
+  left: 100px; 
+  background-color: rgb(20, 34, 245);
+}
+
+.box2 {
+  top: 40px;
+  left: 270px;
+  border: 2px solid rgb(20, 34, 245);
+}
+
+.box3 {
+  top: 40px;
+  left: 440px;
+  border-top: 6px solid rgb(20, 34, 245);
+  border-right: 6px solid rgb(20, 34, 245);
+}
+
+.box4 {
+  top: 220px;
+  left: 100px; 
+  background-color: rgb(245, 20, 20); 
+  border-radius: 32px; 
+}
+
+.box5 {
+  top: 220px;
+  left: 270px;
+  background-color: rgb(245, 20, 20); 
+  border-radius: 32px 0 32px 0;  
+}
+
+.box6 {
+  top: 220px;
+  left: 440px;
+  background-color: rgb(245, 20, 20); 
+  border-radius: 50%;    
+}
+
+.box7 {
+  top: 397px;
+  left: 85px;
+  width: 0;
+  height: 0;
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+  border-bottom: 140px solid rgb(6, 205, 95);
+}
+
+.box8 {
+  top: 598px;
+  left: 100px; 
+  background-color: rgb(90,100,120);   
+  transform: rotate(45deg);
+}

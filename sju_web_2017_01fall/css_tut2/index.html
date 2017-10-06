@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Tutorial 2</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="shape-wrapper">
+      <div class="box1"></div>
+      <div class="box2"></div>
+      <div class="box3"></div>
+      <div class="box4"></div>
+      <div class="box5"></div>
+      <div class="box6"></div>
+      <div class="box7"></div>
+      <div class="box8"></div>
+    </div>
+    <code class="code-wrapper">
+
+<span class="element">div</span> {<br>
+&nbsp;&nbsp;<span class="attribute">width</span>: 150px;<br>
+&nbsp;&nbsp;<span class="attribute">height</span>: 150px;<br>
+&nbsp;&nbsp;<span class="attribute">position</span>: absolute;<br>
+}<br>
+<br>
+<span class="class">.box1</span> {<br>
+&nbsp;&nbsp;<span class="attribute">top</span>: 40px;<br>
+&nbsp;&nbsp;<span class="attribute">left</span>: 100px; <br>
+&nbsp;&nbsp;<span class="attribute">background-color</span>: rgb(20, 34, 245);<br>
+}<br>
+<br>
+<span class="class">.box2</span> {<br>
+&nbsp;&nbsp;<span class="attribute">top</span>: 40px;<br>
+&nbsp;&nbsp;<span class="attribute">left</span>: 270px;<br>
+&nbsp;&nbsp;<span class="attribute">border</span>: 2px solid rgb(20, 34, 245);<br>
+}<br>
+<br>
+<span class="class">.box3</span> {<br>
+&nbsp;&nbsp;<span class="attribute">top</span>: 40px;<br>
+&nbsp;&nbsp;<span class="attribute">left</span>: 440px;<br>
+&nbsp;&nbsp;<span class="attribute">border-top</span>: 6px solid rgb(20, 34, 245);<br>
+&nbsp;&nbsp;<span class="attribute">border-right</span>: 6px solid rgb(20, 34, 245);<br>
+}<br>
+<br>
+<span class="class">.box4</span> {<br>
+&nbsp;&nbsp;<span class="attribute">top</span>: 220px;<br>
+&nbsp;&nbsp;<span class="attribute">left</span>: 100px; <br>
+&nbsp;&nbsp;<span class="attribute">background-color</span>: rgb(245, 20, 20); <br>
+&nbsp;&nbsp;<span class="attribute">border-radius</span>: 32px; <br>
+}<br>
+<br>
+<span class="class">.box5</span> {<br>
+&nbsp;&nbsp;<span class="attribute">top</span>: 220px;<br>
+&nbsp;&nbsp;<span class="attribute">left</span>: 270px;<br>
+&nbsp;&nbsp;<span class="attribute">background-color</span>: rgb(245, 20, 20); <br>
+&nbsp;&nbsp;<span class="attribute">border-radius</span>: 32px 0 32px 0;<br>
+}<br>
+<br>
+<span class="class">.box6</span> {<br>
+&nbsp;&nbsp;<span class="attribute">top</span>: 220px;<br>
+&nbsp;&nbsp;<span class="attribute">left</span>: 440px;<br>
+&nbsp;&nbsp;<span class="attribute">background-color</span>: rgb(245, 20, 20); <br>
+&nbsp;&nbsp;<span class="attribute">border-radius</span>: 50%;<br>
+}<br>
+<br>
+<span class="class">.box7</span> {<br>
+&nbsp;&nbsp;<span class="attribute">top</span>: 397px;<br>
+&nbsp;&nbsp;<span class="attribute">left</span>: 85px;<br>
+&nbsp;&nbsp;<span class="attribute">width</span>: 0;<br>
+&nbsp;&nbsp;<span class="attribute">height</span>: 0;<br>
+&nbsp;&nbsp;<span class="attribute">border-left</span>: 90px solid transparent;<br>
+&nbsp;&nbsp;<span class="attribute">border-right</span>: 90px solid transparent;<br>
+&nbsp;&nbsp;<span class="attribute">border-bottom</span>: 140px solid rgb(6, 205, 95);<br>
+}<br>
+<br>
+<span class="class">.box8</span> {<br>
+&nbsp;&nbsp;<span class="attribute">top</span>: 598px;<br>
+&nbsp;&nbsp;<span class="attribute">left</span>: 100px; <br>
+&nbsp;&nbsp;<span class="attribute">background-color</span>: rgb(90,100,120);<br>
+&nbsp;&nbsp;<span class="attribute">transform</span>: rotate(45deg);<br>
+}
+
+
+
+    </code>
+    <script type="text/javascript">
+      console.log("ready");
+      var shapeWrapper = document.getElementsByClassName("shape-wrapper");
+      var boxes = shapeWrapper[0].getElementsByTagName("div");
+      console.log(boxes)
+      for (var i=0; i<boxes.length; i++) {
+        boxes[i].textContent = boxes[i].className;
+      }
+      
+
+    </script>    
+  </body>
+</html>
