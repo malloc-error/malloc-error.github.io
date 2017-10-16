@@ -1,0 +1,62 @@
+div {
+  position: absolute;
+}
+
+.box1 {
+  left: 10px;
+  width: 150px;
+  height: 200px;
+  border-radius: 0 80px 0 0;
+  background-color: rgb(220, 20, 50);
+}
+
+.box2 {
+  left: 240px;
+  width: 150px;
+  height: 200px;
+  border-radius: 80px 80px 0 0;
+  background-color: rgb(220, 20, 50);
+}
+
+.box3 {
+  left: 470px;
+  width: 75px;
+  height: 200px;
+  border-radius: 0 80px 0 0;
+  background-color: rgb(220, 20, 50);
+}
+
+.box4 {
+  top: 15px;
+  left: 550px;
+  width: 75px;
+  height: 200px;
+  border-radius: 0 0 0 80px;
+  background-color: rgb(220, 20, 50);
+}
+
+.box5 {
+  /*top: 0;*/
+  left: 700px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(220, 20, 50);
+}
+
+.box5:after {
+  content: " ";
+  position: absolute;
+  top: 30px; right: -4px;
+  background-color: white;
+  border-radius: 50%;
+  width: 130px; height: 130px;
+}
+
+.box6 {
+  left: 847px;
+  top: 105px;
+  width: 50px; height: 50px;
+  border-radius: 50%;
+  background-color: rgb(220, 20, 50);
+}
