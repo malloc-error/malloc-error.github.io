@@ -1,0 +1,51 @@
+a {
+  position: absolute;
+  top: 30px;
+  left: 300px;
+}
+
+.ball {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(20, 50, 250);
+  animation-name: myAnimation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes myAnimation {
+  0% {
+    background-color: rgb(20, 50, 250);
+    left: 30px;
+    top: 30px;
+    width: 200px;
+    height: 200px;
+  }
+  25% {
+    top: 300px;
+    background-color: rgb(250, 20, 50);
+  }
+  50% {
+    left: 400px;
+    top: 30px;
+    background-color: rgb(20, 50, 250);
+  }
+  75% {
+    top: 300px;
+    background-color: rgb(250, 20, 50);
+    width: 600px;
+    height: 600px;
+  }
+  100% {
+    left: 30px;
+    top: 30px;
+    background-color: rgb(20, 50, 250);
+    width: 200px;
+    height: 200px;
+  }
+}
