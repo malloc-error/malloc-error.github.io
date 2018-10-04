@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic CSS</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+      ul ul {
+        margin-left: 28px;
+      }
+      li:before {
+        display: none;
+      }
+      li {
+        margin-left: 0;
+      }
+      code {
+        margin-top: 6px;
+        width: 100%;
+        display: block;
+        padding: 10px;
+        background-color: rgb(39,40,34);
+        color: white;
+      }
+      .element {
+        color: rgb(233, 38, 114);
+      }
+      .attribute {
+        color: rgb(102, 217, 223);  
+      }
+      .class {
+        color: rgb(163, 226, 46);   
+      }
+      .comment {
+        color: rgb(115, 113, 94);    
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>Basic CSS</h1>
+      <h5>Review from class tutorials</h5>
+
+      <h3>General pattern</h3>
+      <code>
+        <span class="element">tagName</span> {<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="attribute">attribute</span> : value;
+        <br>}
+        <br><br>
+        <span class="class">.className</span> { <span class="comment">/* remember to put a dot before class names! */</span><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="attribute">attribute</span> : value;
+        <br>}        
+      </code>
+
+      <div class="section-break"></div>
+      <h3>Some attributes from class tutorials</h3>
+      <ul>
+        <li>width</li>
+        <li>max-width</li>
+        <li>height</li>
+        <li>max-height</li>
+        <li>background-color</li>
+        <li>opacity</li>
+        <li>text-decoration</li>
+        <li>padding</li>
+        <li>margin</li>
+        <li>position: absolute
+          <ul>
+            <li>top</li>
+            <li>left</li>
+            <li>(bottom)</li>
+            <li>(right)</li>
+          </ul>
+        </li>
+        <li>border
+          <ul>
+            <li>border-top</li>
+            <li>border-left</li>
+            <li>border-bottom</li>
+            <li>border-right</li>
+          </ul>
+        </li>
+        <li>border-radius</li>
+        <li>transform</li>
+        <li>font-family</li>
+        <li>font-size</li>
+        <li>line-height</li>
+        <li>letter-spacing</li>
+        <li>font-weight</li> 
+        <li>color</li>
+        <li><br></li>
+        <li><em>see also this <a href="https://www.w3schools.com/cssref/" target="_blank">more extensive list</a> of CSS attributes</li></em>
+      </ul>
+      <!-- 
+      <div class="section-break"></div>
+      <h3>In-class CSS tutorials</h3>      
+      <a href="css_tut1/index.html">CSS Tutorial 1</a><br>
+      <a href="css_tut2/index.html">CSS Tutorial 2</a><br>
+      <a href="css_tut3/index.html">CSS Tutorial 3</a><br>
+      <a href="css_tut4/index.html">CSS Tutorial 4</a><br>
+      <a href="css_tut5/index.html">CSS Tutorial 5</a><br>
+      <a href="jquery_tut1/index.html">jQuery Tutorial 1</a> -->
+    </div>
+  </body>
+</html>
