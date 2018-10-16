@@ -1,0 +1,124 @@
+* {
+  text-align: center;
+}
+
+div {
+  position: absolute;
+  background-color: rgb(0,0,0);
+}
+
+div::after {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  position: absolute;
+  color: white;
+}
+
+code {
+  text-align: left;
+  float: right;
+  width: 350px;
+  padding: 10px;
+  background-color: rgb(39,40,34);
+  color: white; 
+  height: calc(100vh - 20px);
+  overflow-y: scroll;
+}
+.element {
+  color: rgb(233, 38, 114);
+}
+.attribute {
+  color: rgb(102, 217, 223);  
+}
+.class {
+  color: rgb(163, 226, 46);   
+}
+.comment {
+  color: rgb(115, 113, 94);    
+}
+
+
+
+
+.r {
+  top: 50px;
+  left: 80px;
+  border: 1px dashed rgb(200,200,200);
+  width: 179px;
+  height: 249px;
+  background-color: transparent;
+}
+
+.r::after {
+  content: ".r";
+  left: -15px;
+  top: -20px;
+  color: black;
+}
+
+.r1 {
+  width: 40px;
+  height: 250px;
+  border: 1px solid white;
+}
+
+.r1::after {
+  content: ".r1";
+  bottom: 4px;
+  left: 10px;
+}
+
+.r2 {
+  width: 150px;
+  height: 150px;
+  border-radius: 0 50% 50% 0;
+  left: 29px;
+  border: 1px solid white;
+}
+
+.r2::after {
+  content: ".r2";
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  top: 0; bottom: 0; left: 0; right: 0;
+  margin: auto;
+}
+
+.r3 {
+  width: 40px;
+  height: 106px;
+  top: 144px;
+  left: 90px;
+  border: 1px solid white;
+}
+
+.r3::after {
+  content: ".r3";
+  bottom: 4px;
+  left: 10px;
+}
+
+.clip1 {
+  left: 50px;
+  top: 400px;
+  width: 100px;
+  height: 208px;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.clipLabel {
+  left: 160px;
+  top: 400px;
+  color: black;
+  text-align: left;
+  background-color: transparent;
+}
+
+.circle1 {
+  width: 200px;
+  height: 200px;
+  border: 4px solid rgb(20, 180, 240);
+  border-radius: 50%;
+}
