@@ -1,0 +1,61 @@
+.title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 7.5vw;
+  color: rgb(255,255,255);
+}
+
+.box1 {
+  position: absolute;
+  top: 300px;
+  left: 10vw;
+  width: 23vw;
+  height: 23vw;
+  background-color: rgb(200, 20, 120);
+}
+
+.box2 {
+  position: absolute;
+  top: 300px;
+  left: 46.5vw;
+  width: 23vw;
+  height: 23vw;
+  background-color: rgb(200, 220, 20);  
+}
+
+.bg-pic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("bg-wide.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+@media (max-width: 711px) {
+  .title {
+    font-size: 54px;
+  }
+  .bg-pic {
+    background-image: url("bg-tall.jpg");
+  }
+  .box2 {
+    left: 10vw;
+    top: 470px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .box1 {
+    background-color: rgb(255,255,255);
+  }
+  .box2 {
+    background-color: rgb(255,255,255);
+  }
+}

@@ -1,0 +1,29 @@
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("atari.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.headline {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  font-family: 'Baloo Bhaijaan', Helvetica;
+  font-size: 12vw;
+  color: white;
+}
+
+.bodytext {
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  font-family: Helvetica;
+  font-size: 18px;
+  color: white;
+}

@@ -104,3 +104,29 @@ code {
   border-radius: 2px;
 }
 
+.download-button-outer {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 10;
+}
+
+.download-button {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 1px;
+  height: 28px;
+  line-height: 28px;
+  color: white;
+  background-color: rgb(241, 0, 104);
+  padding: 0 14px;
+  border-radius: 22px;
+  transition: all 250ms ease-in-out;
+}
+
+.download-button:hover {
+  background-color: rgb(255, 180, 204);
+  color: rgb(40,40,40);
+}
