@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Tutorial 2</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="shape-wrapper">
+      <div class="circle"></div>
+      <div class="my-text">This is my text</div>
+      <div class="computer"></div>
+
+    </div>
+    <code class="code-wrapper">
+
+<span class="class">.circle</span> {<br>
+&nbsp;&nbsp;<span class="attribute">position</span>: absolute;<br>
+&nbsp;&nbsp;<span class="attribute">top</span>: 20px;<br>
+&nbsp;&nbsp;<span class="attribute">left</span>: 20px; <br>
+&nbsp;&nbsp;<span class="attribute">width</span>: 200px;<br>
+&nbsp;&nbsp;<span class="attribute">height</span>: 200px; <br>
+&nbsp;&nbsp;<span class="attribute">border-radius</span>: 50%; <br>
+&nbsp;&nbsp;<span class="attribute">background-color</span>: rgb(17, 109, 234); <br>
+&nbsp;&nbsp;<span class="attribute">cursor</span>: pointer; <br>
+&nbsp;&nbsp;<span class="attribute">transition</span>: all 0.25s ease-in-out; <br>
+}<br>
+<br>
+<span class="class">.circle</span>:hover {<br>
+&nbsp;&nbsp;<span class="attribute">background-color</span>: rgb(234, 17, 109); <br>
+&nbsp;&nbsp;<span class="attribute">width</span>: 220px;<br>
+&nbsp;&nbsp;<span class="attribute">height</span>: 220px; <br>
+&nbsp;&nbsp;<span class="attribute">top</span>: 10px;<br>
+&nbsp;&nbsp;<span class="attribute">left</span>: 10px; <br>
+}<br>
+<br>
+<span class="class">.my-text</span> {<br>
+&nbsp;&nbsp;<span class="attribute">position</span>: absolute;<br>
+&nbsp;&nbsp;<span class="attribute">top</span>: 320px;<br>
+&nbsp;&nbsp;<span class="attribute">left</span>: 20px; <br>
+&nbsp;&nbsp;<span class="attribute">color</span>: black; <br>
+&nbsp;&nbsp;<span class="attribute">font-size</span>: 34px; <br>
+&nbsp;&nbsp;<span class="attribute">font-family</span>: Helvetica; <br>
+&nbsp;&nbsp;<span class="attribute">transition</span>: all 0.5s ease-in-out; <br>
+}<br>
+<br>
+<span class="class">.my-text</span>:hover {<br>
+&nbsp;&nbsp;<span class="attribute">font-weight</span>: bold; <br>
+&nbsp;&nbsp;<span class="attribute">color</span>: rgb(234, 17, 109);<br>
+&nbsp;&nbsp;<span class="attribute">transform</span>: rotate(-23deg); <br>
+}<br>
+<br>
+<span class="class">.computer</span> {<br>
+&nbsp;&nbsp;<span class="attribute">position</span>: absolute;<br>
+&nbsp;&nbsp;<span class="attribute">top</span>: 20px;<br>
+&nbsp;&nbsp;<span class="attribute">left</span>: 300px; <br>
+&nbsp;&nbsp;<span class="attribute">width</span>: 400px;<br>
+&nbsp;&nbsp;<span class="attribute">height</span>: 300px; <br>
+&nbsp;&nbsp;<span class="attribute">height</span>: 300px; <br>
+&nbsp;&nbsp;<span class="attribute">background-image</span>: url("mac.png"); <br>
+&nbsp;&nbsp;<span class="attribute">background-size</span>: cover; <br>
+&nbsp;&nbsp;<span class="attribute">background-position</span>: center; <br>
+}<br>
+<br>
+<span class="class">.computer</span>:hover {<br>
+&nbsp;&nbsp;<span class="attribute">background-image</span>: url("pc.png"); <br>
+}<br>
+<br>
+    </code>
+    <script type="text/javascript">
+      // console.log("ready");
+      // var shapeWrapper = document.getElementsByClassName("shape-wrapper");
+      // var boxes = shapeWrapper[0].getElementsByTagName("div");
+      // for (var i=0; i<boxes.length; i++) {
+        // boxes[i].textContent = boxes[i].className;
+      //}
+    </script>    
+  </body>
+</html>

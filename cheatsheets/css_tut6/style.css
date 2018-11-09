@@ -1,0 +1,90 @@
+* {
+  text-align: center;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+div {
+  width: 150px;
+  height: 150px;    
+  position: absolute;
+}
+
+code {
+  text-align: left;
+  float: right;
+  width: 410px;
+  padding: 10px;
+  background-color: rgb(39,40,34);
+  color: white; 
+  height: 100vh;
+  overflow-y: scroll;
+}
+.element {
+  color: rgb(233, 38, 114);
+}
+.attribute {
+  color: rgb(102, 217, 223);  
+}
+.class {
+  color: rgb(163, 226, 46);   
+}
+.comment {
+  color: rgb(115, 113, 94);    
+}
+
+
+.circle {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(17, 109, 234);
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+.circle:hover {
+  background-color: rgb(234, 17, 109);
+  width: 220px;
+  height: 220px;
+  top: 10px;
+  left: 10px;
+}
+
+.my-text {
+  position: absolute;
+  top: 320px;
+  left: 20px;
+  color: black;
+  font-size: 34px;
+  font-family: Helvetica;
+  transition: all 0.5s ease-in-out;
+}
+
+.my-text:hover {
+  font-weight: bold;
+  color: rgb(234, 17, 109);
+  transform: rotate(-23deg);
+}
+
+.computer {
+  position: absolute;
+  top: 20px;
+  left: 300px;
+  width: 400px;
+  height: 300px;
+  background-image: url("mac.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.computer:hover {
+  background-image: url("pc.png");
+}
+
+
