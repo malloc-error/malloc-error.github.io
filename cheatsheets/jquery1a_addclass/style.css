@@ -1,0 +1,14 @@
+.myBox {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 6px;
+}
+
+.blue {
+  background-color: rgb(23, 180, 233);
+  cursor: pointer;
+}
+
+.red {
+  background-color: rgb(223, 30, 36);
+}

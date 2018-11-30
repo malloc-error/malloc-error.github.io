@@ -1,0 +1,22 @@
+.switch {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 130px;
+  height: 46px;
+  border-radius: 14px;
+  background-color: rgb(43,43,43);
+}
+
+.box {
+  position: absolute;
+  top: 100px;
+  left: 220px;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(20, 180, 40);
+}
+
+.red {
+  background-color: rgb(180, 20, 40);
+}
