@@ -1,0 +1,49 @@
+* {
+  text-align: center;
+}
+
+.shape-wrapper {
+  position: absolute;
+  width: calc(100vw - 410px);
+}
+
+code {
+  text-align: left;
+  float: right;
+  width: 410px;
+  padding: 10px;
+  background-color: rgb(39,40,34);
+  color: white; 
+  height: 100vh;
+  overflow-y: scroll;
+}
+.element {
+  color: rgb(233, 38, 114);
+}
+.attribute {
+  color: rgb(102, 217, 223);  
+}
+.class {
+  color: rgb(163, 226, 46);   
+}
+.comment {
+  color: rgb(115, 113, 94);    
+}
+
+.one-per-line {
+  width: 408px;
+  height: 100px;      
+  position: relative;
+  margin-bottom: 8px;
+  background-color: rgb(20, 34, 245);
+}
+
+.grid {
+  width: 200px;
+  height: 100px;      
+  position: relative;
+  float: left;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  background-color: rgb(245, 20, 34);
+}
