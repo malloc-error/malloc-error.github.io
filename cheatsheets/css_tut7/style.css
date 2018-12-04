@@ -38,6 +38,11 @@ code {
   background-color: rgb(20, 34, 245);
 }
 
+.shift {
+  left: 40px;
+  top: 20px;
+}
+
 .grid {
   width: 200px;
   height: 100px;      
