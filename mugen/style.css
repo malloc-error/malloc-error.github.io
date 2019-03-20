@@ -107,6 +107,13 @@ body {
   animation-iteration-count: infinite;  
   transition-property: right;
   transition-timing-function: linear;
+  pointer-events: none;
+}
+
+.monster.was-hit {
+  opacity: 0;
+  bottom: 0;
+  transition: all 500ms linear !important;
 }
 
 .preload-image {
@@ -125,3 +132,18 @@ body {
     background-position: 100% center;
   }
 }
+
+/*@media only screen and (orientation: portrait) {
+  body.ipad { 
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%) rotate(90deg);
+  }
+}*/
+
+/*@media (max-width: 1023px) {
+  .hero {
+    width: 32vh;
+    height: 32vh;
+  }
+}*/
