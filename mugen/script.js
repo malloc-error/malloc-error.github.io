@@ -1,4 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
   var mugen = new MUGEN();
-  mugen.initialize({attackRadius: 100, monsterHitRadius: 100, attackDuration:600, jumpHeight: 300, makeResponsive:true, autoPlay:false});
+  mugen.initialize({titleScreenImageURL: "./img/title-screen.png", attackRadius: 100, timeBetweenMonsters: 3400, monsterHitRadius: 100, attackDuration:600, jumpHeight: 300});
 });
